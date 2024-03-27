@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <header>
+        <p>Selar</p>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="terms.html">Terms</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="profile">
+            <img src="./jeff.jpg" alt="profile" width="60px" height="60px">
+            <p>Onamma</p>
+        </div>
+
+    </header>
+    <main>
+        <h1>Contact Page</h1>
+
+        <form>
+            <label for="First Name">First Name</label> <br>
+            <input type="text" name="First Name" placeholder="John" required> <br>
+
+            <label for="Last Name">Last Name</label> <br>
+            <input type="text" name="Last Name" placeholder="Doe" required> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder="Johndoe@gmail.com" required> <br>
+
+            <label for="gender">Gender</label> <br>
+            <select name="gender" id="gender" required>
+                <option value="" disabled selected>select your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select> <br>
+
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea> <br>
+
+            <!-- <button type="submit">Send</button> -->
+            <button type="submit">Send</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
